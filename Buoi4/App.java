@@ -24,8 +24,8 @@ public class App {
 	        	
 	            System.out.println("\nThông tin khách hàng thứ " + (i+1) + ": ");
 	            arrKhachHang.get(i).hienThiThongTinKhachHang();
-	            System.out.println("Số tiền của quý khách = " + arrKhachHang.get(i).tinhTien2());
-	            Tongtienve = Tongtienve + arrKhachHang.get(i).tinhTien2();
+	            System.out.println("Số tiền của quý khách là:  = " + arrKhachHang.get(i).tinhTien2());
+	            Tongtienve = Tongtienve + arrKhachHang.get(i).tinhTien();
 	            
 	        }
             System.out.println("Tổng tiền vé của chuyến bay  = " + Tongtienve);
