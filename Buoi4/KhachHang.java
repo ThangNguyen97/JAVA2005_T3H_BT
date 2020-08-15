@@ -8,7 +8,7 @@ public class KhachHang {
 	public int ThoigianBay;
 	public int soluongve;
 	public int loaive;
-	public int tienve;
+//	public int tienve;
 
 //    public KhachHang() {
 //        super();
@@ -43,10 +43,10 @@ public class KhachHang {
 		System.out.print("Nhập số lượng vé: ");
 		soluongve = Integer.parseInt(scanner.nextLine());
 		System.out.print("Nhập loại vé: ");
-		System.out.println("Nhập loại vé (Nhấn phím 1 2 3 để chọn)");
+		System.out.println("Nhập loại vé: ");
 		System.out.println("1. Cao Cấp");
 		System.out.println("2. Thương Gia");
-		System.out.println("3. trung cấp");
+		System.out.println("3. Trung cấp");
 		loaive = Integer.parseInt(scanner.nextLine());
 //	        tienve = tinhTien();
 	}
@@ -64,7 +64,7 @@ public class KhachHang {
 
 	}
 
-	public int tinhTien2() {
+	public int tinhTien() {
 		if (Tuoi < 6 && loaive == 3) {
 			return (int) (soluongve * 2000 * 0.8);
 		}
